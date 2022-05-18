@@ -40,6 +40,9 @@ enum cc {
     country = "japan"
 }
 console.log(cc.age)
+
+- undefined
+未定义
 ```
 
 ### 声明方式
@@ -123,3 +126,42 @@ do {
 ```
 #### break continue
 - 与`golang`中作用相同
+
+### 函数、匿名函数
+- 不支持多返回值
+
+#### 函数
+```ts
+function add(n1: number, n2: number): number {
+    return n1 + n2
+}
+console.log(add(1, 2))
+
+// 函数带默认参数，可以不传入此参数
+function add(n1: number, n2: number = 1): number {
+    return n1 + n2
+}
+console.log(add(1))
+
+// 函数传入参数可以选，不传入时n2类型为 undefined
+function add(n1: number, n2?: number): number {
+    if (typeof n2 === "undefined") {
+        return n1 + 10
+    }
+    return n1 + n2
+}
+console.log(add(1, 2))
+console.log(add(1))
+
+// 函数传入不定数量的参数
+function add(startNumber: number, ...numberArray: number[]): number {
+    let result: number = startNumber
+    for (const n of numberArray) {
+        result = result + n
+    }
+    return result
+}
+console.log(add(1, 2, 3, 4, 5, 6))
+```
+
+### 匿名函数
