@@ -50,4 +50,11 @@ const username: string = "cc"
 ```
 
 ### 变量作用域
-- 与`golang`这些语言类似
+- 与`golang`类似
+
+
+### 条件选择
+#### if else else if
+- 与`golang`相同
+
+#### switch
