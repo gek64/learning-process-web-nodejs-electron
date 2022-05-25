@@ -10,7 +10,7 @@
 
 ## 前期准备
 ```sh
-# 全局安装typescript
+# 安装typescript
 npm install typescript
 
 # 运行
@@ -40,17 +40,16 @@ enum cc {
     country = "japan"
 }
 console.log(cc.age)
-
+```
 - undefined
 未定义
-```
 
 ### 声明方式
 ```ts
 let username: string = "cc"
 console.log(username)
 
-// 静态变量无法更变值
+// 常量无法更变值
 const username: string = "cc"
 
 //var 尽量别用
@@ -165,7 +164,6 @@ console.log(add(1, 2, 3, 4, 5, 6))
 ```
 
 ### 匿名函数
-
 #### Lambda 函数 箭头函数
 - 多用于函数触发器
 ```ts
@@ -174,3 +172,5 @@ let add = (a: number, b: number) => {
 }
 console.log(add(1, 2))
 ```
+
+## 自定义包引入导出
