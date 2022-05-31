@@ -6,7 +6,7 @@ function sayHello() {
 export {
     sayHello
 }
-// es6 默认导出(匿名),一个模块只能由一个默认导出
+// es6 默认导出(匿名),一个模块只能有一个默认导出
 export default sayHello
 
 
