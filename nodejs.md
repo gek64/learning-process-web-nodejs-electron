@@ -4,8 +4,8 @@
 - [x] 变量类型、声明方式、变量作用域
 - [x] 条件选择、循环
 - [x] 函数、匿名函数
-- [ ] 自定义包引入导出
-- [ ] 类、方法函数
+- [x] 自定义包引入导出
+- [x] 类、方法函数
 - [ ] 语言局限性
 
 ## 前期准备
@@ -174,3 +174,7 @@ console.log(add(1, 2))
 ```
 
 ## 自定义包引入导出
+- https://github.com/gek64/learning-process-web-nodejs-electron/tree/main/learning_typescript/typescript_module
+
+## 接口、类、方法函数
+- https://github.com/gek64/learning-process-web-nodejs-electron/tree/main/learning_typescript/typescript_type_class_method
