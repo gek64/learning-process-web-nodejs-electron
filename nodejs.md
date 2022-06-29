@@ -1,4 +1,4 @@
-# nodejs 学习
+# typescript 学习
 
 ## 基础
 - [x] 变量类型、声明方式、变量作用域
@@ -42,6 +42,9 @@ console.log(cc.age)
 ```
 - undefined
 未定义
+
+- 联合类型
+
 
 ### 声明方式
 ```ts
