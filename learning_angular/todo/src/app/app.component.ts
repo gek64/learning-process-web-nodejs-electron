@@ -30,24 +30,4 @@ export class AppComponent {
   addItem(description: string) {
     this.allItems.unshift({description, done: false})
   }
-
-  delItem(description: string) {
-    let index: number = this.findItem(description)
-
-    console.log(index)
-    if (index != -1) {
-      this.allItems.splice(index)
-      alert("done")
-    }
-  }
-
-  findItem(description: string): number {
-    let index: number
-    index = this.allItems.indexOf({description: "sleep", done: false}, 0)
-    if (index == -1) {
-      index = this.allItems.indexOf({description: "sleep", done: false}, 0)
-    }
-    return index
-  }
-
 }
